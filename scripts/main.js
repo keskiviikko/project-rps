@@ -1,7 +1,7 @@
 let footButton = document.querySelector('#foot');
 let cockroachButton = document.querySelector('#cockroach');
 let nuclearButton = document.querySelector('#nuclear bomb');
-let para = document.querySelector('p');
+let para = document.querySelector('#result');
 
 function computerPlay() {
     let options = ['Foot', 'Cockroach', 'Nuclear bomb'];
@@ -16,16 +16,16 @@ function playerSelectionFoot() {
     let computerSelection = computerPlay();
     if (computerSelection == 'Cockroach') {
         let result = `You chose ${playerSelection}. Computer chose ${computerSelection}. You win!`;
-        alert(result);
+        para.textContent = (result);
     } else if (computerSelection == 'Nuclear bomb') {
-        let result = `You chose ${playerSelection}. Computer chose ${computerSelection}. You lose!`;
-        alert(result);
+        let result = `You chose ${playerSelection}. Computer chose ${computerSelection}. You lose...`;
+        para.textContent = (result);
     } else if (playerSelection == computerSelection) {
         let result = 'It\'s a tie. Try again.';
-        alert(result);
+        para.textContent = (result);
     } else {
         let result = 'There was a problem. Try again.';
-        alert(result);
+        para.textContent = (result);
     }
 }
 
@@ -34,16 +34,16 @@ function playerSelectionCockroach() {
     let computerSelection = computerPlay();
     if (computerSelection == 'Nuclear bomb') {
         let result = `You chose ${playerSelection}. Computer chose ${computerSelection}. You win!`;
-        alert(result);
+        para.textContent = (result);
     } else if (computerSelection == 'Foot') {
-        let result = `You chose ${playerSelection}. Computer chose ${computerSelection}. You lose!`;
-        alert(result);
+        let result = `You chose ${playerSelection}. Computer chose ${computerSelection}. You lose...`;
+        para.textContent = (result);
     } else if (playerSelection == computerSelection) {
         let result = 'It\'s a tie. Try again.';
-        alert(result);
+        para.textContent = (result);
     } else {
         let result = 'There was a problem. Try again.';
-        alert(result);
+        para.textContent = (result);
     }
 }
 
@@ -52,16 +52,16 @@ function playerSelectionNuclear() {
     let computerSelection = computerPlay();
     if (computerSelection == 'Foot') {
         let result = `You chose ${playerSelection}. Computer chose ${computerSelection}. You win!`;
-        alert(result);
+        para.textContent = (result);
     } else if (computerSelection == 'Cockroach') {
-        let result = `You chose ${playerSelection}. Computer chose ${computerSelection}. You lose!`;
-        alert(result);
+        let result = `You chose ${playerSelection}. Computer chose ${computerSelection}. You lose...`;
+        para.textContent = (result);
     } else if (playerSelection == computerSelection) {
         let result = 'It\'s a tie. Try again.';
-        alert(result);
+        para.textContent = (result);
     } else {
         let result = 'There was a problem. Try again.';
-        alert(result);
+        para.textContent = (result);
     }
 }
 

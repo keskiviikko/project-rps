@@ -1,0 +1,21 @@
+html {
+    font-family: 'Fredoka One', cursive;
+  }
+
+body {
+    background-color: #7CB4B8;
+}
+
+h1, h2 {
+    color: #57467B;
+}
+
+p {
+    font-size: 45px;
+    color: #CAFE48;
+}
+
+#result {
+    font-size: 30px;
+    color: #70F8BA;
+}

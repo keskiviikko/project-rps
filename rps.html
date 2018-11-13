@@ -3,19 +3,21 @@
 
 <head>
   <title>project rps</title>
-  <script type="text/javascript" src="scripts/main.js"></script>
+  <link href="styles/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
 </head>
 
 <body>
   <div align="center">
-    <h2>Play a round of<h2>
-        <h1>Foot, Cockroach, Nuclear bomb</h1>
-        <h2>Are you ready? Make your choice:</h2>
-        <button id="foot" onclick="playerSelectionFoot()">Foot</button>
-        <button id="cockroach" onclick="playerSelectionCockroach()">Cockroach</button>
-        <button id="nuclear bomb" onclick="playerSelectionNuclear()">Nuclear bomb</button><br>
-        <p></p>
+    <h1>Play a round of</h1>
+    <p>Foot<br>Cockroach<br>Nuclear bomb</p>
+    <h2>Are you ready? Make your choice:</h2>
+    <button id="foot" onclick="playerSelectionFoot()">Foot</button>
+    <button id="cockroach" onclick="playerSelectionCockroach()">Cockroach</button>
+    <button id="nuclear bomb" onclick="playerSelectionNuclear()">Nuclear bomb</button><br>
+    <p id="result"></p>
   </div>
+  <script type="text/javascript" src="scripts/main.js"></script>
 </body>
 
 </html>
