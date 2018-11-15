@@ -28,13 +28,10 @@ function playerSelectionFoot() {
         let result = `You chose ${playerSelection}. Computer chose ${computerSelection}. You lose...`;
         para.textContent = (result);
         score.textContent = `Player score: ${playerScore} | Computer score: ${++computerScore}`;
-    } else if (playerSelection == computerSelection) {
+    } else {
         let result = 'It\'s a tie. Try again.';
         para.textContent = (result);
         score.textContent = `Player score: ${playerScore} | Computer score: ${computerScore}`;
-    } else {
-        let result = 'There was a problem. Try again.';
-        para.textContent = (result);
     }
 }
 
@@ -49,13 +46,10 @@ function playerSelectionCockroach() {
         let result = `You chose ${playerSelection}. Computer chose ${computerSelection}. You lose...`;
         para.textContent = (result);
         score.textContent = `Player score: ${playerScore} | Computer score: ${++computerScore}`;
-    } else if (playerSelection == computerSelection) {
+    } else {
         let result = 'It\'s a tie. Try again.';
         para.textContent = (result);
         score.textContent = `Player score: ${playerScore} | Computer score: ${computerScore}`;
-    } else {
-        let result = 'There was a problem. Try again.';
-        para.textContent = (result);
     }
 }
 
@@ -70,13 +64,10 @@ function playerSelectionNuclear() {
         let result = `You chose ${playerSelection}. Computer chose ${computerSelection}. You lose...`;
         para.textContent = (result);
         score.textContent = `Player score: ${playerScore} | Computer score: ${++computerScore}`;
-    } else if (playerSelection == computerSelection) {
+    } else {
         let result = 'It\'s a tie. Try again.';
         para.textContent = (result);
         score.textContent = `Player score: ${playerScore} | Computer score: ${computerScore}`;
-    } else {
-        let result = 'There was a problem. Try again.';
-        para.textContent = (result);
     }
 }
 
