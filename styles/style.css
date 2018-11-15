@@ -19,3 +19,12 @@ p {
     font-size: 30px;
     color: #70F8BA;
 }
+
+#scores {
+    font-size: 20px;
+    color: #524948;
+}
+
+#roundend {
+    font-size: 35px;
+}
