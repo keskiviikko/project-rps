@@ -15,6 +15,11 @@ p {
     color: #CAFE48;
 }
 
+#rules {
+    font-size: 20px;
+    color: #57467B;
+}
+
 #result {
     font-size: 30px;
     color: #70F8BA;
